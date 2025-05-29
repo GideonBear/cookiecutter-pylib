@@ -30,7 +30,6 @@ urls.homepage = "https://github.com/{{ cookiecutter.__gh_slug }}"
 lint.select = [ "ALL" ]
 
 lint.ignore = [
-    # General:
     "COM812", # Conflict with formatter
     "CPY",    # No copyright statements
     "D1",     # Docstrings should not be enforced by default
