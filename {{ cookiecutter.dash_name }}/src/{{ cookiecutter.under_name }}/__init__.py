@@ -1,5 +1,5 @@
 from __future__ import annotations
 
 
-def main() -> None:
-    print("Hello from {{ cookiecutter.dash_name }}!")
+def hello() -> str:
+    return "Hello from delme!"
