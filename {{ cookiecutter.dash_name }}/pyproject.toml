@@ -4,7 +4,7 @@ requires = [ "hatchling" ]
 
 [project]
 name = "{{ cookiecutter.dash_name }}"
-version = "0.1.7"
+version = "0.1.0"
 description = "{{ cookiecutter.description }}"
 readme = "README.md"
 license = "GPL-3.0-only"
