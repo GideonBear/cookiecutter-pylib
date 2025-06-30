@@ -1,6 +1,7 @@
 {
     "dash_name": "package-name",
     "description": "Description",
+    "visibility": ["public", "private"],
     "under_name": "{{ cookiecutter.dash_name.replace('-', '_') }}",
     "github_username": "GideonBear",
     "pypi_username": "{{ cookiecutter.github_username }}",
