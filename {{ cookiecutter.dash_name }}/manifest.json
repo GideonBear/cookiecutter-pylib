@@ -4,7 +4,9 @@
             "name": "private",
             "enabled": {{ "true" if cookiecutter.visibility == "private" else "false" }},
             "resources": [
-                ".github/workflows/precommit-autoupdate.yml"
+                ".github/workflows/precommit-autoupdate.yml",
+                ".github/workflows/pre-commit.yml",
+                ".github/workflows/pre-commit-autofix.yml"
             ]
         }
     ]
