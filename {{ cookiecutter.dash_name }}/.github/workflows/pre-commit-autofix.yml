@@ -1,4 +1,4 @@
-on:
+{% raw %}on:
   pull_request:
 
 jobs:
@@ -25,3 +25,4 @@ jobs:
       if: always()
       with:
         commit_message: pre-commit autofixes
+{% endraw %}
