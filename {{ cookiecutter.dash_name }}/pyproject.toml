@@ -27,6 +27,8 @@ urls.bugs = "https://github.com/{{ cookiecutter.__gh_slug }}/issues"
 urls.homepage = "https://github.com/{{ cookiecutter.__gh_slug }}"
 
 [tool.ruff]
+format.preview = true
+
 lint.select = [ "ALL" ]
 
 lint.ignore = [
