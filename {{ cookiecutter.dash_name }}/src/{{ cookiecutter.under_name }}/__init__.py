@@ -2,4 +2,4 @@ from __future__ import annotations
 
 
 def hello() -> str:
-    return "Hello from delme!"
+    return "Hello from {{ cookiecutter.dash_name }}!"
